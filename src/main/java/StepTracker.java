@@ -18,7 +18,7 @@ private int minSteps, totalSteps, totalDays, actDays;
   }
  }
 
- public int actDays(){
+ public int activeDays(){
   return actDays;
  }
 
