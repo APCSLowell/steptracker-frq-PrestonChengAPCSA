@@ -24,9 +24,10 @@ private int minSteps, totalSteps, totalDays, activeDays;
 
  public double averageSteps(){
   if(totalDays == 0){
-   return 0;
+   return 0.0;
+  } else{
+     return (double)totalSteps/totalDays;
   }
-  return (double) totalSteps/totalDays;
  }
  
 } 
